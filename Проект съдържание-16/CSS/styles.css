@@ -1,0 +1,381 @@
+*
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+   
+    
+}
+a
+{
+    color:black
+}
+#guide,#information
+{
+    display: inline-block;
+    color:black;
+    
+    font-size:large;
+    
+   
+}
+#guide
+{
+    padding:3px;
+    border-radius:100%;
+    
+}
+#information
+{
+    display:inline-block;
+    padding:8px;
+    border-radius:100%;
+    inline-size: auto;
+    
+}
+#danger
+{
+    border-color:black;
+    color:black;
+   
+    
+    
+    
+    
+}
+
+#note
+{
+    font-size: larger;
+    font-weight:bold;
+}
+
+nav ul li
+{
+    display:flex;
+    text-decoration: none;
+    display: inline-block;
+    margin:2% 4%;
+    
+    
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    
+    
+}
+
+nav ul a:hover
+{
+    
+    font-weight: bold;
+    
+
+}
+
+nav 
+{
+    background-color: aliceblue;
+    max-width: 100%;
+    
+    
+    
+}
+
+
+
+.information,.symbols
+{
+    
+    justify-content: center;
+    max-width: 80%;
+    margin-left:10%;
+    margin-right:5%;
+}
+
+.symbols{
+    margin-top:10%;
+
+}
+   
+ img
+{
+   width:60%;
+   margin-left:5%;
+  
+   
+}
+#BG
+{
+    font-size: x-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.link a
+{
+    text-decoration: none;
+}
+.link
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+}
+
+footer
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    margin-top:50%;
+}
+
+.instructions
+{
+    max-width: 80%;
+    margin:1%
+}
+ .instructions ol
+{
+    font-size: large;
+    
+    margin:1% 3%;
+    
+    background-color: grey;
+    margin-bottom:0%;
+    
+}
+
+ol li
+{
+    max-width:40%;
+}
+
+
+#two
+{
+    list-style-type: none;
+    
+}
+
+.instr-2 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:1% 3%;
+   
+
+
+}
+
+.instr-2 img
+{
+    width:30%;
+    height: 30%;
+    margin:0% 3%
+}
+
+
+
+
+
+
+#two li::before
+{
+    content:"2.";
+}
+
+.instructions ol li
+{
+    max-width:0;
+}
+
+.instructions ul
+{
+    max-width:65%;
+    
+}
+
+.instructions ul li
+{
+    margin-top:1%;
+}
+
+
+.instructions .left 
+{
+    
+    margin-top:1%;
+    margin-left: 4.1%;
+    max-width: 60%;
+    margin-bottom:1%;
+    display: flex;
+    flex-direction: column;
+    max-width:45%;
+
+    margin-right:2%;
+}
+
+b
+{
+    margin-top:2%;
+}
+
+.warning
+{
+    list-style-type: none;
+    margin-top: 1%;
+}
+.warning li::before
+{
+    
+    content: "\26A0";
+    
+}
+
+.right
+{
+    display: flex;
+    max-width: 100%;
+    margin-right:2%;
+    flex-direction: column;
+    margin-right:3%;
+
+    
+   
+
+}
+
+.instructions
+{
+    display: flex;
+    margin:2% 0%;
+
+}
+.dash li::before
+{
+    content:"-";
+    margin: 3%;
+}
+
+.dash,.dash li
+{
+    list-style-type: none;
+    margin-top:1%
+
+}
+
+
+
+ .note li::before
+{
+    content:"ЗАБЕЛЕЖКА";
+    font-weight: bold;
+    margin-left: 0%;    
+    
+}
+.note
+{
+    list-style-type: none;
+}
+
+.info li
+{
+    content:"\2139"
+}
+
+#packing
+{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    
+    
+}
+
+#packing-text 
+{
+    
+    text-align: right;
+    margin:0%;
+    height:90%;
+    
+    
+}
+
+#packing-img
+{
+    
+    width: 250%;
+    text-align: end;
+    margin:2%;
+    
+}
+
+table
+{
+  border-collapse: collapse;
+  width:50%;
+
+}
+
+table td
+{
+    border:1px solid grey;
+   
+}
+
+
+#empty
+{
+    visibility: hidden;
+}
+
+#specs
+{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#specs h2
+{
+    text-align: center;
+}
+
+#container
+{
+    display: flex;
+    justify-content: center;
+    margin:1% 2%;
+    
+}
+#table
+{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 40%;
+    
+}
+
+
+#list
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+#list li
+{
+    margin:2% 0%;
+}

@@ -1,0 +1,74 @@
+*
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+a
+{
+    color:black
+}
+#guide,#information,#danger
+{
+    display: inline-block;
+    color:white;
+    background-color: black;
+    font-size:large;
+    
+   
+}
+#guide
+{
+    padding:3px;
+    border-radius:100%;
+    
+}
+#information
+{
+    display:inline-block;
+    padding:8px;
+    border-radius:100%;
+    inline-size: auto;
+    
+}
+#danger
+{
+    
+    border-radius: 100%;
+    
+    align-content:normal
+}
+
+nav ul li
+{
+    
+    display: inline-block;
+    
+    
+}
+
+nav ul
+{
+    background-color: aliceblue;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    
+}
+
+nav ul a:hover
+{
+    background-color: whitesmoke;
+
+}
+
+
+
+.navigation
+{
+    display:flex;
+    align-items: flex-start;
+    justify-content: start;
+    
+}
+
